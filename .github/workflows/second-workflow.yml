@@ -4,10 +4,10 @@ jobs:
     hello-job :
         runs-on : ubuntu-latest
         steps:
-            -name : "welcome"
-             run: echo "welcome to the jungle"
+            - name : "welcome"
+              run: echo "welcome to the jungle"
     bye-job : 
         runs-on : ubuntu-latest
         steps: 
-            -name : "bye"
-            run : echo "bye from the jungle"         
+            - name : "bye"
+             run : echo "bye from the jungle"         
