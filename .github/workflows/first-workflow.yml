@@ -8,3 +8,5 @@ jobs:
         run: echo "Hello this is the first work flow in github action"
       - name: Bye Github Action
         run: echo "Bye Github action" 
+      - name: Fail Job Intentionally
+        run: exit 1
